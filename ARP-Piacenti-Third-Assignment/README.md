@@ -1,6 +1,6 @@
 # Assignment 3: Advanced Remote Processing
 
-ENrico Piacenti S5636699
+Enrico Piacenti S5636699
 
 This assignment introduces two new features - client and server connections - to facilitate communication between two similar applications running on different machines within a network. When launching the application, you will be prompted to choose one of three execution modes: normal (similar to assignment 2), server, or client. In server mode, the application receives input from another client application, while in client mode, it sends keyboard input to a server application.
 
