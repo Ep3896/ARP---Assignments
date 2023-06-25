@@ -29,7 +29,7 @@ After following the instructions to run the code, you will be presented with thr
 
 ## Functionality Overview
 
-For a detailed explanation of the program's basic functionality, refer to the readme of the second assignment: https://github.com/Massimo-Carlini/ARP_Second_Assignment.
+For a detailed explanation of the program's basic functionality, refer to the readme of the second assignment: .
 
 Based on the selected mode, the program operates differently:
 
