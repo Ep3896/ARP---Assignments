@@ -4,7 +4,7 @@ Enrico Piacenti S5636699
 
 This assignment focuses on simulating an industrial scenario with two processes, A and B, each having its own window. Process A provides a user interface to control the position of a simplified circle and a print button to capture a snapshot of the current shared memory. The circle's position can be controlled using the arrow keys on the keyboard. Whenever the circle's position changes, a bitmap image is copied to the shared memory.
 
-Process B displays the real-time position of the circle's center by analyzing the shared memory. All snapshots are saved in the directory `/out` and are sequentially numbered starting from 0.
+Process B displays the real-time position of the circle's center by analyzing the shared memory. All snapshots are saved in the directory `/prints` and are sequentially numbered starting from 0.
 
 ## Installation and Execution
 ----------------------
@@ -46,7 +46,7 @@ After following the instructions to compile and run the code, the simulation wil
 3. Capturing Snapshots:
    - To capture a snapshot of the current image, press the arrow keys to move the spot and position it as desired.
    - Alternatively, you can click the "P" button using your mouse.
-   - Each snapshot is saved as a .bmp file in the "out" directory.
+   - Each snapshot is saved as a .bmp file in the "prints" directory.
    - Snapshots are sequentially numbered, starting from 0, to facilitate organization and reference.
 
 4. Stopping the Simulation:
@@ -54,4 +54,7 @@ After following the instructions to compile and run the code, the simulation wil
    - This will terminate the program and close all open windows.
 
 
+## Troubleshooting
+----------------------
+It is important to underline that to see the working effect of this program, it is recommended to just tap the arrow keys to move in the enviroment . So please, be patient and tap the arrow keys giving the time to the Process B to trace the position of the image in the first window.
 
